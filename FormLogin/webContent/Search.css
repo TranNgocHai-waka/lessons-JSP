@@ -1,0 +1,55 @@
+@charset "UTF-8";
+ form {
+        width: 400px;
+        margin: auto;
+      }
+input {
+      padding: 4px 10px;
+      border: 0;
+      font-size: 16px;
+   }
+.search {
+    width: 75%;
+    border: 3px groove #1c87c9;
+  }
+.submit {
+    width: 70px;
+    background-color: #1c87c9;
+    color: #ffffff;
+}
+
+/*==Reset CSS==*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*==Style cơ bản cho website==*/
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+
+/*==Style cho menu===*/
+#menu ul {
+  background: #1F568B;
+  list-style-type: none;
+  text-align: center;
+}
+#menu li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+#menu a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+#menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
